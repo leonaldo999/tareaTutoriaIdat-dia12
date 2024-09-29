@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: "Merriweather", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7e7c7c79;
+}
+
+/* Header Section */
+header {
+  background-color: #213947;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #f7a47e;
+}
+
+header .btn-register {
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+header .btn-register:hover {
+  background-color: rgb(245, 201, 201);
+}
+
+header .btn-register .a-register {
+  text-decoration: none;
+  padding: 10px;
+  color: #f00;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f7a47e;
+}
+
+/* Article Section */
+article {
+  padding: 20px;
+}
+
+article header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article header .title {
+  font-size: 34px;
+  color: #f7a47e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+small {
+  color: #666;
+  font-size: 11px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+}
+
+.p-small {
+  color: #666;
+  font-size: 14px;
+}
+
+.a-submit {
+  text-decoration: none;
+  color: #f00
+}
