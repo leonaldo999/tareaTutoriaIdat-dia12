@@ -5,7 +5,7 @@
  > Para tener un orden, tu proyecto deberá estar en un nuevo repositorio.
  > Además de crear un readme explicando el uso de las propiedades que has utilizado en tu pagina web, como adicional a esto en el propio readme adjuntar captura de pantalla de la pagina.
 
- ![img](/img/Captura%20de%20pantalla%202024-09-28%20213023.png)
+ ![img](img/Captura%20de%20pantalla%202024-09-28%20213023.png)
 
 ## naldoTravel
 
